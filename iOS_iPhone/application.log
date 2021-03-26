@@ -1,0 +1,28 @@
+[INFO ] 2021-03-24 17:43:04.0159 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-24 17:43:06.0476 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-24 17:43:06.0505 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-24 17:43:06.0522 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-24 17:43:06.0523 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-24 17:43:06.0525 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:42) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/src/test/resources/apps/SwagLabsMobileApp.app
+[INFO ] 2021-03-24 17:45:42.0214 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:20) -starting appium server
+[INFO ] 2021-03-24 17:45:44.0045 com.qa.utils.ServerManager:com.qa.utils.ServerManager.startServer(ServerManager.java:29) -Appium server started
+[INFO ] 2021-03-24 17:45:44.0074 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:28) -initializing Appium driver
+[INFO ] 2021-03-24 17:45:44.0088 com.qa.utils.PropertyManager:com.qa.utils.PropertyManager.getProps(PropertyManager.java:17) -loading config properties
+[INFO ] 2021-03-24 17:45:44.0089 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:18) -getting capabilities
+[INFO ] 2021-03-24 17:45:44.0092 com.qa.utils.CapabilitiesManager:com.qa.utils.CapabilitiesManager.getCaps(CapabilitiesManager.java:42) -appUrl is/Users/vishnu.vardhan/Desktop/SauceLabsAppAutomation-BDD/target/test-classes/apps/SwagLabsMobileApp.app
+[INFO ] 2021-03-24 17:46:20.0662 com.qa.utils.DriverManager:com.qa.utils.DriverManager.initializeDriver(DriverManager.java:40) -Driver is initialized
+[INFO ] 2021-03-24 17:46:23.0707 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with dummy_user
+[INFO ] 2021-03-24 17:46:26.0888 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-24 17:46:28.0763 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-24 17:46:32.0388 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-24 17:46:33.0922 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with invalid user name.mp4
+[INFO ] 2021-03-24 17:46:37.0360 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-24 17:46:40.0831 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is dummy_sauce
+[INFO ] 2021-03-24 17:46:42.0055 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-24 17:46:45.0740 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -error text is - Username and password do not match any user in this service.
+[INFO ] 2021-03-24 17:46:46.0783 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with invalid password.mp4
+[INFO ] 2021-03-24 17:46:50.0755 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -login with standard_user
+[INFO ] 2021-03-24 17:46:54.0120 com.qa.pages.BasePage:com.qa.pages.BasePage.sendKeys(BasePage.java:71) -password is secret_sauce
+[INFO ] 2021-03-24 17:46:55.0305 com.qa.pages.BasePage:com.qa.pages.BasePage.click(BasePage.java:54) -press login button
+[INFO ] 2021-03-24 17:47:01.0815 com.qa.pages.BasePage:com.qa.pages.BasePage.getText(BasePage.java:97) -product page title is - PRODUCTS
+[INFO ] 2021-03-24 17:47:03.0129 com.qa.utils.VideoManager:com.qa.utils.VideoManager.stopRecording(VideoManager.java:35) -video path: iOS_iPhone/Videos/Login with valid username and password.mp4
